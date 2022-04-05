@@ -16,7 +16,7 @@ except ImportError:
 #     # For Django < 1.4.2
 #     string_types = basestring,
 
-basestring = str
+string_types = str
 
 import re
 import warnings
